@@ -371,4 +371,4 @@ The repository contains:
 - acceptance checklist
 - submission summary
 
-Do not commit or submit `.env`.
+
