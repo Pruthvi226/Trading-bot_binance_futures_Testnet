@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+Trading-Bot-Submission.zip
+logs/trading_bot.log*
+!logs/.gitkeep
+!logs/examples/
+!logs/examples/*.log

@@ -1,0 +1,8 @@
+2026-06-02 17:27:06 - trading_bot - INFO - Executing MARKET BUY order: BTCUSDT x0.001
+2026-06-02 17:27:06 - trading_bot - INFO - Binance client initialized for Futures Testnet
+2026-06-02 17:27:06 - trading_bot - DEBUG - Synced Binance server time offset: -542ms
+2026-06-02 17:27:06 - trading_bot - INFO - POST https://testnet.binancefuture.com/fapi/v1/order
+2026-06-02 17:27:06 - trading_bot - DEBUG - Order request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'newOrderRespType': 'RESULT', 'timestamp': 1780401425955, 'recvWindow': 5000}
+2026-06-02 17:27:06 - trading_bot - INFO - API response status code: 200
+2026-06-02 17:27:06 - trading_bot - INFO - Order placed successfully: {'orderId': 13810031316, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'VSpr6BsGx3jbic5lVHHHnU', 'price': '0.00', 'avgPrice': '69524.700000', 'origQty': '0.0010', 'executedQty': '0.0010', 'cumQty': '0.0010', 'cumQuote': '69.524700', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780401425961}
+2026-06-02 17:27:06 - trading_bot - INFO - Order execution completed successfully
